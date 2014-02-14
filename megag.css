@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&subset=latin,latin-ext);
 
-/* ________________________________________________________
+/* ____________________________________________________
 	MEGAgrid · Designed and built by Agustín Lautaro   !
 	Code licensed under open-source MIT License        !
 	http://opensource.org/licenses/mit-license.php     !
-	www.MEGAgrid.com.ar				   !
-   ________________________________________________________! */
+	www.MEGAgrid.com.ar							   	   !
+	___________________________________________________! */
 
 /* General settings
 ___________________________________________________________________________________ */
@@ -42,7 +42,7 @@ ________________________________________________________________________________
 		max-width: 100%;
 		height: auto;
 		margin:0 auto;
-		}
+		}	
 	
 /* 960 in 12 columns grid
 ___________________________________________________________________________________ */
@@ -82,14 +82,14 @@ ________________________________________________________________________________
 /*  Media queries
 ___________________________________________________________________________________ */
 
-	/* Smaller than standard 960 (devices and browsers) */
+/* _ Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {		
 		.container {
 			width:940px;
 			}			
 	}
  
-  /* Tablet Portrait size to standard 960 (devices and browsers) */
+/* _ Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {		
 		.container {
 			width:768px;
@@ -98,37 +98,45 @@ ________________________________________________________________________________
 			float:left;
 			display:block;
 			}
-		.container .make.cell1 {width:47%;}	
-		.container .make.cell2 {width:47%;}	
-		.container .make.cell3 {width:47%;}	
-		.container .make.cell4 {width:47%;}	
-		.container .make.cell5 {width:47%;}
-		.container .make.cell6 {width:47%;}
-		.container .make.cell7 {width:96.5%;}
-		.container .make.cell8 {width:96.5%;}
-		.container .make.cell9 {width:96.5%;}
-		.container .make.cell10 {width:96.5%;}
-		.container .make.cell11 {width:96.5%;}
-		.container .make.cell12 {width:96.5%;}
-		
-		.container .offset1 {margin-left:10px;}	
-		.container .offset2 {margin-left:10px;}
-		.container .offset3 {margin-left:10px;}	
-		.container .offset4 {margin-left:10px;}		
-		.container .offset5 {margin-left:10px;}
-		.container .offset6 {margin-left:10px;}
-		.container .offset7 {margin-left:10px;}
-		.container .offset8 {margin-left:10px;}
-		.container .offset9 {margin-left:10px;}
-		.container .offset10 {margin-left:10px;}
-		.container .offset11 {margin-left:10px;}
-		.container .offset12 {margin-left:10px;}
 			
-		.make.gamma {margin-left: 10px;}
+		.container .make.cell1,
+		.container .make.cell2,
+		.container .make.cell3,
+		.container .make.cell4,
+		.container .make.cell5,
+		.container .make.cell6 {
+			width:47%;
+			}
+			
+		.container .make.cell7,
+		.container .make.cell8,
+		.container .make.cell9,
+		.container .make.cell10,
+		.container .make.cell11,
+		.container .make.cell12 {
+			width:96.5%;
+			}
+			
+		.container .offset1,
+		.container .offset2,
+		.container .offset3,
+		.container .offset4,
+		.container .offset5,
+		.container .offset6,
+		.container .offset7,
+		.container .offset8,
+		.container .offset9,
+		.container .offset10,
+		.container .offset11,
+		.container .offset12,
+		.make.gamma {
+			margin-left:10px;
+			}
+			
 		.make.delta {margin-right: 10px;}	
 	}
  
-  /* All Mobile Sizes (devices and browser) */
+/* _ All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {	
 		.container {
 			width:640px;
@@ -137,37 +145,45 @@ ________________________________________________________________________________
 			float:left;
 			display:block;
 			}
-		.container .make.cell1 {width:46%;}	
-		.container .make.cell2 {width:46%;}	
-		.container .make.cell3 {width:46%;}	
-		.container .make.cell4 {width:46%;}	
-		.container .make.cell5 {width:46%;}
-		.container .make.cell6 {width:46%;}
-		.container .make.cell7 {width:95%;}
-		.container .make.cell8 {width:95%;}
-		.container .make.cell9 {width:95%;}
-		.container .make.cell10 {width:95%;}
-		.container .make.cell11 {width:95%;}
-		.container .make.cell12 {width:95%;}
-		
-		.container .offset1 {margin-left:10px;}	
-		.container .offset2 {margin-left:10px;}
-		.container .offset3 {margin-left:10px;}	
-		.container .offset4 {margin-left:10px;}		
-		.container .offset5 {margin-left:10px;}
-		.container .offset6 {margin-left:10px;}
-		.container .offset7 {margin-left:10px;}
-		.container .offset8 {margin-left:10px;}
-		.container .offset9 {margin-left:10px;}
-		.container .offset10 {margin-left:10px;}
-		.container .offset11 {margin-left:10px;}
-		.container .offset12 {margin-left:10px;}
 			
-		.make.gamma {margin-left: 10px;}
+		.container .make.cell1,
+		.container .make.cell2,
+		.container .make.cell3,
+		.container .make.cell4,
+		.container .make.cell5,
+		.container .make.cell6 {
+			width:46%;
+			}
+
+		.container .make.cell7,
+		.container .make.cell8,
+		.container .make.cell9,
+		.container .make.cell10,
+		.container .make.cell11,
+		.container .make.cell12 {
+			width:95%;
+			}
+
+		.container .offset1,
+		.container .offset2,
+		.container .offset3,
+		.container .offset4,
+		.container .offset5,
+		.container .offset6,
+		.container .offset7,
+		.container .offset8,
+		.container .offset9,
+		.container .offset10,
+		.container .offset11,
+		.container .offset12,
+		.make.gamma {
+			margin-left:10px;
+			}
+			
 		.make.delta {margin-right: 10px;}		
 	}
  
-  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* _ Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 640px) {	
 		.container {
 			width:420px;
@@ -175,25 +191,28 @@ ________________________________________________________________________________
 		.container .make {
 			float:none;
 			display:block;
-			}	
-		.container .make.cell1 {width:94%;}	
-		.container .make.cell2 {width:94%;}	
-		.container .make.cell3 {width:94%;}	
-		.container .make.cell4 {width:94%;}	
-		.container .make.cell5 {width:94%;}
-		.container .make.cell6 {width:94%;}
-		.container .make.cell7 {width:94%;}	
-		.container .make.cell8 {width:94%;}	
-		.container .make.cell9 {width:94%;}	
-		.container .make.cell10 {width:94%;}	
-		.container .make.cell11 {width:94%;}	
-		.container .make.cell12 {width:94%;}
+			}
+			
+		.container .make.cell1,
+		.container .make.cell2,
+		.container .make.cell3,
+		.container .make.cell4,
+		.container .make.cell5,
+		.container .make.cell6,
+		.container .make.cell7,
+		.container .make.cell8,
+		.container .make.cell9,
+		.container .make.cell10,
+		.container .make.cell11,
+		.container .make.cell12 {
+			width:94%;
+			}
 			
 		.make.gamma {margin-left: 10px;}
 		.make.delta {margin-right: 10px;}				
 	}
  
-  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+/* _ Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {	
 		.container {
 			width:250px;
@@ -201,20 +220,27 @@ ________________________________________________________________________________
 		.container .make {
 			float:none;
 			display:block;
-			}	
-		.container .make.cell1 {width:94%;}	
-		.container .make.cell2 {width:94%;}	
-		.container .make.cell3 {width:94%;}	
-		.container .make.cell4 {width:94%;}	
-		.container .make.cell5 {width:94%;}
-		.container .make.cell6 {width:94%;}
-		.container .make.cell7 {width:94%;}	
-		.container .make.cell8 {width:94%;}	
-		.container .make.cell9 {width:94%;}	
-		.container .make.cell10 {width:94%;}	
-		.container .make.cell11 {width:94%;}	
-		.container .make.cell12 {width:94%;}
+			}
+			
+		.container .make.cell1,
+		.container .make.cell2,
+		.container .make.cell3,
+		.container .make.cell4,
+		.container .make.cell5,
+		.container .make.cell6,
+		.container .make.cell7,
+		.container .make.cell8,
+		.container .make.cell9,
+		.container .make.cell10,
+		.container .make.cell11,
+		.container .make.cell12 {
+			width:94%;
+			}
 			
 		.make.gamma {margin-left: 10px;}
-		.make.delta {margin-right: 10px;}	
+		.make.delta {margin-right: 10px;}
+		
+		h1,h2,h3,h4,h5,h6 {
+			text-align:center;
+			}
 	}
