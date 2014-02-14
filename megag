@@ -1,0 +1,5 @@
+git init
+git add megag.txt
+git commit -m "Grid"
+git remote add origin https://github.com/agustinl/MEGAgrid.git
+git push -u origin master
