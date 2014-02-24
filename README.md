@@ -27,7 +27,7 @@ Feel free to collaborate with this project!
 
 [Direct download](https://github.com/agustinl/MEGAgrid/archive/master.zip)
 
-# BROWSER SUPPORT (all latest)
+# BROWSER SUPPORT
 
 * Chrome +4.0
 * Firefox +3.5
