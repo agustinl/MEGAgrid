@@ -26,6 +26,19 @@ For a complete guide on how to use Megagrid visit the following web address: [Me
 Feel free to collaborate with this project!
 
 [Direct download](https://github.com/agustinl/MEGAgrid/archive/master.zip)
+
+# BROWSER SUPPORT (all latest)
+
+* Chrome
+* Firefox
+* Opera
+* Safari
+* Internet Explorer
+* iOS
+* Android (firefox, chrome, opera)
+* Blackberry
+
+
   
 Megagrid · Designed and built by [Agustín Lautaro](http://about.me/agustinl)  
 Code licensed under [open-source MIT License](http://opensource.org/licenses/mit-license.php)  
