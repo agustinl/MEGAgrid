@@ -29,14 +29,14 @@ Feel free to collaborate with this project!
 
 # BROWSER SUPPORT (all latest)
 
-* Chrome
-* Firefox
-* Opera
-* Safari
-* Internet Explorer
-* iOS
-* Android (firefox, chrome, opera)
-* Blackberry
+* Chrome +4.0
+* Firefox +3.5
+* Internet Explorer +9.0
+* Safari +4.0
+* Opera +9.6
+* Browsers for Android all the latest versions
+* iOS Safari +3.2
+* Blackberry browser
 
 
   
