@@ -1,0 +1,62 @@
+/* TEST STYLE CSS */
+
+body {
+	background:url('img/grid.png');
+	background-position: center;
+	}
+
+a {
+	text-decoration:none;
+}
+
+.ttstyle {
+	background:#bbbbbb;
+	text-align:center;
+	margin-bottom:18px;
+}
+
+ul li {
+	text-align:left;
+}
+
+.ttstyle2 {
+	background:#afafaf;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin:5px 2px;
+	padding:0px;
+}
+
+h4,h5,h6 {
+	font-weight:400;
+}
+
+p {
+	text-align:left;
+	margin:5px;
+}
+
+.ggexample {
+    height: 20px;
+    background-color: #dcdcdc;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    }
+
+.downloadfix {
+   	position:fixed;
+   	top:580px;
+   	left:800px;
+   	z-index:999;
+   	background:#eeeeee;
+   	border:solid 1px #000;
+   	border-radius:2px;
+   	opacity:0.9;
+   }
+
+.downloadfix:hover {
+	opacity:10;
+}
