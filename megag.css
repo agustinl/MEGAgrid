@@ -212,7 +212,7 @@ ________________________________________________________________________________
 		.make.delta {margin-right: 10px;}				
 	}
  
-/* _ LOW RESOLUTION - FIRST GENERATION MOBILE (<480) */
+/* LOW RESOLUTION - FIRST GENERATION MOBILE (<480) */
 	@media only screen and (max-width: 479px) {	
 		.container {
 			width:250px;
@@ -245,7 +245,7 @@ ________________________________________________________________________________
 			}
 	}
 	
-/* VERY SMALL SCREEN */
+/* VERY SMALL SCREEN (<320) */
 	@media only screen and (max-width: 319px) {	
 		.container {
 			width:180px;
@@ -268,15 +268,6 @@ ________________________________________________________________________________
 		.container .make.cell11,
 		.container .make.cell12 {
 			width:94%;
-			}
-	
-		.slicknav_menu {
-			display:block;
-			margin-bottom:20px;
-			}
-		
-		#menu {
-			display:none;
 			}
 			
 		.make.gamma {margin-left: 10px;}
