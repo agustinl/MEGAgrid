@@ -10,7 +10,20 @@
 /* General settings
 ___________________________________________________________________________________ */
 
+	* {
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		-o-box-sizing:border-box;
+		box-sizing:border-box;
+		}
+
+	html {
+		-ms-text-size-adjust: 100%;
+  		-webkit-text-size-adjust: 100%;
+  		}
+
 	body {
+  		margin: 0;
 		font-family:"Source Sans Pro", sans-serif;
 		}
 	
@@ -23,13 +36,9 @@ ________________________________________________________________________________
 	.container .make {
 		float:left;
 		display:inline;
-		margin-left:10px;
-		margin-right:10px;
-		overflow:hidden;
-		-moz-box-sizing:border-box;
-		-webkit-box-sizing:border-box;
-		-o-box-sizing:border-box;
-		box-sizing:border-box;
+		padding-left:10px;
+		padding-right:10px;
+		overflow:hidden;		
 		}
 
 	.clear {
@@ -37,28 +46,29 @@ ________________________________________________________________________________
 		overflow:hidden;
 		}
 	
-	.make-img {
+	.make-img {  
 		display: block;	  
 		max-width: 100%;
 		height: auto;
 		margin:0 auto;
+		vertical-align: middle;
 		}
 	
 /* 960 in 12 columns grid
 ___________________________________________________________________________________ */
 
-	.container .make.cell1 {width:6.25%;}		/* 60px */
-	.container .make.cell2 {width:14.58333%;}	/* 140px */
-	.container .make.cell3 {width:22.91667%;}	/* 220px */
-	.container .make.cell4 {width:31.25%;}		/* 300px */
-	.container .make.cell5 {width:39.58333%;}	/* 380px */
-	.container .make.cell6 {width:47.91667%;}	/* 460px */
-	.container .make.cell7 {width:56.25%;}		/* 540px */
-	.container .make.cell8 {width:64.58333%;}	/* 620px */
-	.container .make.cell9 {width:72.91667% }	/* 700px */
-	.container .make.cell10 {width:81.25%;}		/* 780px */
-	.container .make.cell11 {width:89.58333%;}	/* 860px */
-	.container .make.cell12 {width:97.91667%;}	/* 940px */
+	.container .make.cell1 {width:8.33333333%;}
+	.container .make.cell2 {width:16.66666667%;}
+	.container .make.cell3 {width:25%;}
+	.container .make.cell4 {width:33.33333333%;}
+	.container .make.cell5 {width:41.66666667%;}
+	.container .make.cell6 {width:50%;}
+	.container .make.cell7 {width:58.33333333%;}
+	.container .make.cell8 {width:66.66666667%;}
+	.container .make.cell9 {width:75% }
+	.container .make.cell10 {width:83.33333333%;}
+	.container .make.cell11 {width:91.66666667%;}
+	.container .make.cell12 {width:100%;}
 	
 	.make.gamma {margin-left: 0;}
 	.make.delta {margin-right: 0;}
@@ -66,18 +76,18 @@ ________________________________________________________________________________
 /* Off-set
 ___________________________________________________________________________________ */
 
-	.container .offset1 {margin-left:8.33333%;}		/* 80px */
-	.container .offset2 {margin-left:16.66667%;}		/* 160px */ 
-	.container .offset3 {margin-left:25%;}			/* 240px */
-	.container .offset4 {margin-left:33.33333%;}		/* 320px */		
-	.container .offset5 {margin-left:41.66667%;}		/* 400px */
-	.container .offset6 {margin-left:50%;}			/* 480px */
-	.container .offset7 {margin-left:58.33333%;}		/* 560px */
-	.container .offset8 {margin-left:66.66667%;}		/* 640px */
-	.container .offset9 {margin-left:75%;}			/* 720px */
-	.container .offset10 {margin-left:83.33333%;}	/* 800px */	
-	.container .offset11 {margin-left:91.66667%;}	/* 880px */
-	.container .offset12 {margin-left:100%;}			/* 960px */
+	.container .offset1 {margin-left:8.33333%;}
+	.container .offset2 {margin-left:16.66667%;}
+	.container .offset3 {margin-left:25%;}
+	.container .offset4 {margin-left:33.33333%;}
+	.container .offset5 {margin-left:41.66667%;}
+	.container .offset6 {margin-left:50%;}
+	.container .offset7 {margin-left:58.33333%;}
+	.container .offset8 {margin-left:66.66667%;}
+	.container .offset9 {margin-left:75%;}
+	.container .offset10 {margin-left:83.33333%;}
+	.container .offset11 {margin-left:91.66667%;}
+	.container .offset12 {margin-left:100%;}
 	
 /*  Media queries
 ___________________________________________________________________________________ */
@@ -101,11 +111,13 @@ ________________________________________________________________________________
 			
 		.container .make.cell1,
 		.container .make.cell2,
-		.container .make.cell3,
+		.container .make.cell3 {
+			width:33.33333%;
+		}
 		.container .make.cell4,
 		.container .make.cell5,
 		.container .make.cell6 {
-			width:47%;
+			width:50%;
 			}
 			
 		.container .make.cell7,
@@ -114,7 +126,7 @@ ________________________________________________________________________________
 		.container .make.cell10,
 		.container .make.cell11,
 		.container .make.cell12 {
-			width:96.5%;
+			width:91.66667%%;
 			}
 			
 		.container .offset1,
@@ -148,11 +160,14 @@ ________________________________________________________________________________
 			
 		.container .make.cell1,
 		.container .make.cell2,
-		.container .make.cell3,
+		.container .make.cell3 {			
+			width:33.33333%;
+		}
+
 		.container .make.cell4,
 		.container .make.cell5,
 		.container .make.cell6 {
-			width:46%;
+			width:50%;
 			}
 
 		.container .make.cell7,
@@ -161,7 +176,7 @@ ________________________________________________________________________________
 		.container .make.cell10,
 		.container .make.cell11,
 		.container .make.cell12 {
-			width:95%;
+			width:91.66667%%;
 			}
 
 		.container .offset1,
@@ -205,7 +220,7 @@ ________________________________________________________________________________
 		.container .make.cell10,
 		.container .make.cell11,
 		.container .make.cell12 {
-			width:94%;
+			width:91.66667%%;
 			}
 			
 		.make.gamma {margin-left: 10px;}
@@ -234,7 +249,7 @@ ________________________________________________________________________________
 		.container .make.cell10,
 		.container .make.cell11,
 		.container .make.cell12 {
-			width:94%;
+			width:91.66667%%;
 			}
 			
 		.make.gamma {margin-left: 10px;}
@@ -267,7 +282,7 @@ ________________________________________________________________________________
 		.container .make.cell10,
 		.container .make.cell11,
 		.container .make.cell12 {
-			width:94%;
+			width:91.66667%%;
 			}
 			
 		.make.gamma {margin-left: 10px;}
