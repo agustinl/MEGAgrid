@@ -40,8 +40,8 @@ Feel free to collaborate with this project!
 
 
   
-Megagrid · Designed and built by [Agustín Lautaro](http://about.me/agustinl)  
+Megagrid · Designed and built by [Agustín Lautaro](https://twitter.com/agustinlautaro)  
 Code licensed under [open-source MIT License](http://opensource.org/licenses/mit-license.php)  
-For any questions please send an email to the following address <info@megagrid.com.ar>  
+For any questions please send an email to the following address <aencaje@gmail.com>  
 
 > Buenos Aires, Argentina · 2014
